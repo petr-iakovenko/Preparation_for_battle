@@ -155,7 +155,7 @@ RIGHT JOIN - вывод всей правой(второй) таблицы и п
     ON o.customer_id = c.customer_id;
 ```
 ![](SQL_3.png)
-
+ 
 
 
 
