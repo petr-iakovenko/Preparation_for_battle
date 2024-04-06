@@ -132,11 +132,11 @@ WITH ROLLUP включает NULL значения.
 DISTINCT - удаление дубликатов из результирующего набора данных
 
 IN - фильтрация строк, где значение определенного столбца равно одному из набора значений
-
+```
     SELECT column_name(s)
     FROM table_name
     WHERE column_name IN (value1, value2, ...);
-
+```
 BETWEEN  - фильтрации данных по диапазону значений. 
 ```
     SELECT column_name(s)
@@ -149,10 +149,10 @@ RIGHT JOIN - вывод всей правой(второй) таблицы и п
 
 ![](SQL_2.png)
 ```
-SELECT o.order_id, c.name
-FROM orders as o
-LEFT JOIN customers as c
-ON o.customer_id = c.customer_id;
+    SELECT o.order_id, c.name
+    FROM orders as o
+    LEFT JOIN customers as c
+    ON o.customer_id = c.customer_id;
 ```
 ![](SQL_3.png)
 
